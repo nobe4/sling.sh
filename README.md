@@ -1,0 +1,2 @@
+# sling.sh
+Simple launcher.
