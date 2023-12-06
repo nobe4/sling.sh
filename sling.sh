@@ -27,5 +27,5 @@ find "${HOME}/bin/commands" \
 	| sort \
 	| fzf \
 		--preview-window="bottom" \
-		--preview="{} -h || cat \$(which {})" \
+		--preview="{} -h" \
 		--bind="enter:become(${BECOME_COMMAND})"
