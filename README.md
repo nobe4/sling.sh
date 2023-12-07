@@ -26,7 +26,7 @@ need to adapt it to your configuration.
 	In [`sling.sh`](./sling.sh) change:
 
 	- `LOG_FILE`
-	- `find "${HOME}/bin/commands"`
+	- `find` and other references to `./commands/`
 	- anything else
 
 - Optional - Set a global shortcut.
